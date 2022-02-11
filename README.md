@@ -1,3 +1,24 @@
+# Clean React TS
+
+## Included:
+
+- basic tsconfig, eslint and prettier configuration
+- axios (with api created in services folder)
+- routing (v5.2.0)
+- react icons
+- react toastify
+- date fns
+- styled components (with basic global and theme schemes)
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
