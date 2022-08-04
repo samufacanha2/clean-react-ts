@@ -4,7 +4,7 @@
 
 - basic tsconfig, eslint and prettier configuration
 - axios (with api created in services folder)
-- routing (v5.2.0)
+- routing (v6.3.0)
 - react icons
 - react toastify
 - date fns
