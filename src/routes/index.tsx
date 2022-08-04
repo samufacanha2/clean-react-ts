@@ -1,18 +1,16 @@
-import { BrowserRouter, Redirect, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 
 import Home from '../pages/Home/';
 
-const Routes: React.FC = () => {
+const Router: React.FC = () => {
   return (
     <BrowserRouter>
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="*">
-          <Redirect to="/" />
-        </Route>
-      </Switch>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
+      </Routes>
     </BrowserRouter>
   );
 };
 
-export default Routes;
+export default Router;
