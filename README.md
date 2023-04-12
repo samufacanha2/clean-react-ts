@@ -7,6 +7,7 @@
 - routing (v6.10.0)
 - react toastify
 - styled components (with basic global and theme schemes)
+- Vitest + React Testing Library
 
 <br/>
 <br/>
